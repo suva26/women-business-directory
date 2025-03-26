@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #ff69b4; /* Pink background */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar div {
+    display: flex;
+    gap: 20px; /* Add space between links */
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background: skyblue; /* Slight hover effect */
+  }
+  

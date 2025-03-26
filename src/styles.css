@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    /*background: url('/images/bg-women-business.jpg') no-repeat center center fixed;*/
+    background-size: cover;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white; /* Pink color for a feminine touch */
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Business Card Styling */
+  .business-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .business-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #d63384;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #c2185b;
+  }
+  
